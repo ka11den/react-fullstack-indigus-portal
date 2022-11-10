@@ -1,0 +1,32 @@
+/* login */
+.login__container {
+  align-items: center;
+  gap: 5rem;
+}
+
+.login__content {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+.login__input {
+  border: 0 solid #fff;
+  border-bottom: 2px solid #000;
+}
+
+.login__btn {
+  padding: 1rem;
+  border-radius: 15px;
+  color: #ffff;
+  font-weight: 800;
+  background-color: #6A52D9;
+}
+
+.error {
+  border-bottom: 2px solid #f90000;
+}
+
+.login__img {
+  width: 700px;
+}
